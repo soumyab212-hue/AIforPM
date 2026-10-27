@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soumya B | AI PM Portfolio & AI Transformation Readiness Assessor</title>
+    <!-- Tailwind CSS for utility styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0fdf4',
+                            100: '#dcfce7',
+                            500: '#10b981',
+                            600: '#059669',
+                            700: '#047857',
+                            900: '#064e3b',
+                        },
+                        slate: {
+                            850: '#151f32',
+                            900: '#0f172a',
+                            950: '#080d1a',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Merriweather', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0f172a;
+            color: #f8fafc;
+        }
+        .serif-heading {
+            font-family: 'Merriweather', serif;
+        }
+        .glass-panel {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .accent-gradient {
+            background: linear-gradient(135deg, #10b981 0%, #3b82f6 100%);
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between selection:bg-brand-500 selection:text-white">
+
+    <!-- Top Navigation Bar -->
+    <header class="sticky top-0 z-50 glass-panel border-b border-slate-800/80 bg-slate-900/90 backdrop-blur-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center space-x-3">
+                    <div class="w-9 h-9 rounded-lg bg-gradient-to-tr from-brand-500 to-blue-600 flex items-center justify-center font-bold text-white shadow-lg shadow-brand-500/20">
+                        SB
+                    </div>
+                    <div>
+                        <span class="text-sm font-semibold text-white tracking-wide block">Soumya B</span>
+                        <span class="text-xs text-slate-400 font-mono">FT Number: FT272079</span>
+                    </div>
+                </div>
+                
+                <nav class="hidden md:flex space-x-1 text-xs font-medium text-slate-300">
+                    <a href="#positioning" class="px-3 py-2 rounded-md hover:text-white hover:bg-slate-800 transition-all">Positioning</a>
+                    <a href="#problem-memo" class="px-3 py-2 rounded-md hover:text-white hover:bg-slate-800 transition-all">Problem Framing Memo</a>
+                    <a href="#ai-spec" class="px-3 py-2 rounded-md hover:text-white hover:bg-slate-800 transition-all">AI Specification</a>
+                    <a href="#prototype" class="px-3 py-2 rounded-md hover:text-white hover:bg-slate-800 transition-all text-brand-500 font-semibold">Prototype v0</a>
+                    <a href="#crisp-link" class="px-3 py-2 rounded-md hover:text-white hover:bg-slate-800 transition-all text-blue-400">CRISP Thread</a>
+                </nav>
+
+                <div class="flex items-center">
+                    <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-brand-500/10 text-brand-400 border border-brand-500/20">
+                        <span class="w-1.5 h-1.5 rounded-full bg-brand-500 mr-1.5 animate-pulse"></span>
+                        AI PM Advisory Portfolio
+                    </span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-16">
+
+        <!-- SECTION 1: HEADER & POSITIONING STATEMENT -->
+        <section id="positioning" class="pt-4">
+            <div class="glass-panel rounded-2xl p-6 sm:p-10 border border-slate-800 relative overflow-hidden shadow-2xl">
+                <div class="absolute top-0 right-0 w-96 h-96 bg-brand-500/5 rounded-full blur-3xl pointer-events-none"></div>
+                
+                <div class="max-w-3xl space-y-4">
+                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-slate-800 border border-slate-700 text-xs font-mono text-slate-300">
+                        <span>Role Target: Principal AI Product Manager</span>
+                        <span class="text-slate-500">•</span>
+                        <span>Consulting & Advisory</span>
+                    </div>
+
+                    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-white serif-heading leading-tight">
+                        Bridging Strategic Vision & Responsible AI Deployment
+                    </h1>
+
+                    <!-- Positioning Statement Block -->
+                    <div class="mt-6 p-5 rounded-xl bg-slate-900/80 border-l-4 border-brand-500 text-slate-300 text-base leading-relaxed">
+                        <p class="font-semibold text-white mb-2 text-xs uppercase tracking-wider font-mono text-brand-400">Positioning Statement</p>
+                        "As a Principal AI Product Manager in Consulting Advisory, I specialize in de-risking high-stakes enterprise AI transformations. By combining rigorous problem framing, transparent evaluation frameworks, and human-in-the-loop AI architectures, I help organizations navigate the critical transition from ambitious AI concepts to evidence-backed, operationally sound execution—ensuring zero capital is wasted on unready infrastructure or unvalidated assumptions."
+                    </div>
+
+                    <div class="flex flex-wrap gap-4 pt-2 text-xs text-slate-400 font-mono">
+                        <div class="flex items-center gap-1.5">
+                            <svg class="w-4 h-4 text-brand-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
+                            <span>Candidate: Soumya B</span>
+                        </div>
+                        <div class="flex items-center gap-1.5">
+                            <svg class="w-4 h-4 text-brand-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 012-2h2a2 2 0 012 2v1m-6 0h6"></path></svg>
+                            <span>ID: FT272079</span>
+                        </div>
+                        <div class="flex items-center gap-1.5">
+                            <svg class="w-4 h-4 text-brand-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <span>Scope: Enterprise AI Readiness Assessment</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: ONE-PAGE PROBLEM FRAMING MEMO -->
+        <section id="problem-memo" class="space-y-6">
+            <div class="border-b border-slate-800 pb-4">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <h2 class="text-2xl font-bold text-white serif-heading">One-Page Problem Framing Memo</h2>
+                        <p class="text-xs text-slate-400 mt-1">Strategic alignment memo evaluating AI Transformation adoption barriers</p>
+                    </div>
+                    <span class="text-xs font-mono bg-slate-800 text-slate-300 px-2.5 py-1 rounded border border-slate-700">Strictly Non-Graphical Analysis</span>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Real Problems Card -->
+                <div class="glass-panel p-6 rounded-xl border-t-2 border-t-red-500/80 space-y-4">
+                    <div class="flex items-center gap-2">
+                        <span class="p-2 rounded bg-red-500/10 text-red-400">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                        </span>
+                        <h3 class="text-lg font-semibold text-white">1. Real Problems</h3>
+                    </div>
+                    <ul class="text-xs text-slate-300 space-y-3 leading-relaxed">
+                        <li class="p-2.5 rounded bg-slate-900/60 border border-slate-800">
+                            <strong class="text-red-300 block mb-1">Premature Investment Execution:</strong> Organizations jump into costly model fine-tuning and AI platform vendor contracts without validating foundational data quality or governance structures.
+                        </li>
+                        <li class="p-2.5 rounded bg-slate-900/60 border border-slate-800">
+                            <strong class="text-red-300 block mb-1">Fragmented Operational Context:</strong> Data pipelines, process documentations, and compliance protocols live in silos, leading to severe AI hallucinatory behavior and operational misalignment.
+                        </li>
+                        <li class="p-2.5 rounded bg-slate-900/60 border border-slate-800">
+                            <strong class="text-red-300 block mb-1">Unmanaged Risk Exposure:</strong> Absence of pre-deployment safety, workforce capability checks, and audit trails creates catastrophic regulatory and legal vulnerabilities.
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- False Problems Card -->
+                <div class="glass-panel p-6 rounded-xl border-t-2 border-t-amber-500/80 space-y-4">
+                    <div class="flex items-center gap-2">
+                        <span class="p-2 rounded bg-amber-500/10 text-amber-400">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636"></path></svg>
+                        </span>
+                        <h3 class="text-lg font-semibold text-white">2. False Problems</h3>
+                    </div>
+                    <ul class="text-xs text-slate-300 space-y-3 leading-relaxed">
+                        <li class="p-2.5 rounded bg-slate-900/60 border border-slate-800">
+                            <strong class="text-amber-300 block mb-1">"We need custom LLMs for everything":</strong> Enterprise teams often assume they require bespoke foundation models when traditional deterministic rules or standard API endpoints are far more cost-effective.
+                        </li>
+                        <li class="p-2.5 rounded bg-slate-900/60 border border-slate-800">
+                            <strong class="text-amber-300 block mb-1">"AI will automatically clean bad data":</strong> Deploying AI models on top of unstructured, ungoverned data does not solve data quality; it amplifies systemic errors at scale.
+                        </li>
+                        <li class="p-2.5 rounded bg-slate-900/60 border border-slate-800">
+                            <strong class="text-amber-300 block mb-1">"Immediate workforce replacement":</strong> Expecting immediate total automation rather than targeted human-in-the-loop augmentation misjudges organizational readiness.
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Unknowns Card -->
+                <div class="glass-panel p-6 rounded-xl border-t-2 border-t-blue-500/80 space-y-4">
+                    <div class="flex items-center gap-2">
+                        <span class="p-2 rounded bg-blue-500/10 text-blue-400">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        </span>
+                        <h3 class="text-lg font-semibold text-white">3. Strategic Unknowns</h3>
+                    </div>
+                    <ul class="text-xs text-slate-300 space-y-3 leading-relaxed">
+                        <li class="p-2.5 rounded bg-slate-900/60 border border-slate-800">
+                            <strong class="text-blue-300 block mb-1">Organizational Velocity & Buy-In:</strong> How rapidly will middle-management transition from passive legacy procedures to evidence-backed AI workflows?
+                        </li>
+                        <li class="p-2.5 rounded bg-slate-900/60 border border-slate-800">
+                            <strong class="text-blue-300 block mb-1">Evolving Regulatory Landscape:</strong> How will emerging AI compliance standards impact data residency and algorithmic audit requirements over the next 12-24 months?
+                        </li>
+                        <li class="p-2.5 rounded bg-slate-900/60 border border-slate-800">
+                            <strong class="text-blue-300 block mb-1">Cross-Departmental Friction:</strong> What unseen operational bottlenecks will emerge when merging siloed data across sales, engineering, and legal teams?
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: AI SPECIFICATION & AI-WORTHINESS ARGUMENT -->
+        <section id="ai-spec" class="space-y-6">
+            <div class="border-b border-slate-800 pb-4">
+                <h2 class="text-2xl font-bold text-white serif-heading">AI Specification & AI-Worthiness Argument</h2>
+                <p class="text-xs text-slate-400 mt-1">System boundaries, behavioral guardrails, and deterministic vs. generative architecture justification</p>
+            </div>
+
+            <!-- AI-Worthiness Argument -->
+            <div class="glass-panel p-6 rounded-xl space-y-4">
+                <h3 class="text-base font-semibold text-brand-400 font-mono uppercase tracking-wider">AI-Worthiness Argument</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-xs text-slate-300">
+                    <div class="p-4 rounded-lg bg-slate-900/90 border border-slate-800 space-y-2">
+                        <span class="font-bold text-white text-sm block border-b border-slate-800 pb-2">Where Deterministic Rules Suffice</span>
+                        <p class="leading-relaxed">
+                            Evaluating baseline readiness scores across quantitative metrics (e.g., cloud availability %, encryption status, budget allocation) does <strong>not</strong> require AI. Standard, transparent, rule-based logic is utilized for scoring to ensure total predictability, speed, and auditability without unnecessary token overhead or non-deterministic variance.
+                        </p>
+                    </div>
+                    <div class="p-4 rounded-lg bg-slate-900/90 border border-slate-800 space-y-2">
+                        <span class="font-bold text-brand-400 text-sm block border-b border-slate-800 pb-2">Where AI/LLM Generative Synthesis is Warranted</span>
+                        <p class="leading-relaxed">
+                            AI is uniquely essential for synthesizing <strong>unstructured enterprise evidence</strong> (e.g., qualitative user text inputs regarding process constraints, unstructured audit feedback) and mapping them against structural gaps across the 5 readiness dimensions to construct custom, contextual mitigation roadmaps.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AI Behaviour Specification & Never List Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Behavior Specification -->
+                <div class="glass-panel p-6 rounded-xl space-y-4">
+                    <h3 class="text-base font-semibold text-white font-mono uppercase tracking-wider flex items-center gap-2">
+                        <svg class="w-4 h-4 text-brand-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                        Behavior Specification
+                    </h3>
+                    <div class="space-y-3 text-xs">
+                        <div class="p-3 rounded bg-slate-900/60 border border-slate-800">
+                            <span class="font-semibold text-brand-400 block mb-1">Intended Behavior:</span>
+                            Evaluate inputs transparently, isolate capability gaps based on evidence provided, present weighted dimension breakdowns, and suggest actionable next steps.
+                        </div>
+                        <div class="p-3 rounded bg-slate-900/60 border border-slate-800">
+                            <span class="font-semibold text-amber-400 block mb-1">Refusal Behavior:</span>
+                            Refuse to generate readiness guarantees, refuse to assess domain queries outside enterprise AI transformation, and decline requests to process confidential enterprise data without explicit user disclosures.
+                        </div>
+                        <div class="p-3 rounded bg-slate-900/60 border border-slate-800">
+                            <span class="font-semibold text-red-400 block mb-1">Failure Behavior:</span>
+                            In case of missing user evidence or low-confidence scoring, fallback gracefully to conservative baseline recommendations, highlight missing data points, and mandate human advisory intervention.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- The Explicit 'Never List' -->
+                <div class="glass-panel p-6 rounded-xl border border-red-500/20 bg-red-950/10 space-y-4">
+                    <h3 class="text-base font-semibold text-red-400 font-mono uppercase tracking-wider flex items-center gap-2">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636"></path></svg>
+                        Explicit 'Never List' (System Guardrails)
+                    </h3>
+                    <ul class="space-y-2.5 text-xs text-slate-300">
+                        <li class="flex items-start gap-2 p-2 rounded bg-slate-900/80 border border-slate-800">
+                            <span class="text-red-500 font-bold">1.</span>
+                            <span><strong>NEVER make unsupported readiness claims:</strong> All assessment findings must stem directly from user-provided evidence or quantitative questionnaire scores.</span>
+                        </li>
+                        <li class="flex items-start gap-2 p-2 rounded bg-slate-900/80 border border-slate-800">
+                            <span class="text-red-500 font-bold">2.</span>
+                            <span><strong>NEVER fabricate business data or benchmarks:</strong> Do not invent fake industry benchmarks or claim statistical certainty without verified inputs.</span>
+                        </li>
+                        <li class="flex items-start gap-2 p-2 rounded bg-slate-900/80 border border-slate-800">
+                            <span class="text-red-500 font-bold">3.</span>
+                            <span><strong>NEVER offer transformation success guarantees:</strong> AI readiness does not guarantee business ROI; explicitly communicate execution risks.</span>
+                        </li>
+                        <li class="flex items-start gap-2 p-2 rounded bg-slate-900/80 border border-slate-800">
+                            <span class="text-red-500 font-bold">4.</span>
+                            <span><strong>NEVER present unevidenced recommendations as proven:</strong> Clearly label generative hypotheses as synthesized models requiring human validation.</span>
+                        </li>
+                        <li class="flex items-start gap-2 p-2 rounded bg-slate-900/80 border border-slate-800">
+                            <span class="text-red-500 font-bold">5.</span>
+                            <span><strong>NEVER execute autonomous high-impact decisions:</strong> Require human advisory sign-off prior to implementing strategic, legal, or capital recommendations.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: FUNCTIONAL PROTOTYPE V0 (AI TRANSFORMATION READINESS ASSESSOR) -->
+        <section id="prototype" class="space-y-6">
+            <div class="border-b border-slate-800 pb-4 flex flex-col md:flex-row md:items-center justify-between gap-2">
+                <div>
+                    <div class="flex items-center gap-2">
+                        <span class="px-2 py-0.5 rounded text-[10px] font-mono bg-brand-500/20 text-brand-400 border border-brand-500/30">Functional Interactive Engine v0</span>
+                        <h2 class="text-2xl font-bold text-white serif-heading">AI Transformation Readiness Assessor</h2>
+                    </div>
+                    <p class="text-xs text-slate-400 mt-1">Multi-dimensional diagnostic tool evaluating enterprise AI deployment readiness</p>
+                </div>
+                <div class="text-xs font-mono text-slate-400 bg-slate-800/80 p-2 rounded border border-slate-700">
+                    Architect: <span class="text-white font-semibold">Soumya B</span> (FT272079)
+                </div>
+            </div>
+
+            <!-- Transparency & Engine Disclosure Banner -->
+            <div class="p-4 rounded-xl bg-blue-950/30 border border-blue-500/30 flex items-start gap-3 text-xs text-blue-200">
+                <svg class="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                <div class="space-y-1">
+                    <p class="font-semibold text-blue-300">System Disclosure & Architecture Transparency:</p>
+                    <p class="leading-relaxed">
+                        This prototype calculates dimension metrics using a <strong>transparent, deterministic weighted scoring engine</strong>. The qualitative gap analysis and prioritised roadmap demonstrate <strong>simulated Generative AI synthesis</strong> based directly on your provided evidence. No unevidenced or fabricated third-party model data is introduced.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Main Interactive Prototype Grid -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+                
+                <!-- QUESTIONNAIRE FORM (8 cols) -->
+                <div class="lg:col-span-7 space-y-6">
+                    <form id="readiness-form" class="space-y-6" onsubmit="event.preventDefault(); evaluateReadiness();">
+                        
+                        <!-- DIMENSION 1: DATA QUALITY -->
+                        <div class="glass-panel p-5 rounded-xl space-y-4 border-l-4 border-l-blue-500">
+                            <div class="flex justify-between items-center">
+                                <h3 class="font-semibold text-white text-sm flex items-center gap-2">
+                                    <span class="w-6 h-6 rounded-full bg-blue-500/20 text-blue-400 flex items-center justify-center text-xs font-mono">1</span>
+                                    Data Quality & Integration
+                                </h3>
+                                <span class="text-[11px] font-mono text-slate-400">Weight: 25%</span>
+                            </div>
+
+                            <div class="space-y-3 text-xs">
+                                <label class="block text-slate-300">Data Infrastructure & Accessibility Level:</label>
+                                <select id="d1-score" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-white focus:ring-2 focus:ring-brand-500 outline-none">
+                                    <option value="1">1 - Highly Fragmented / Unstructured / Siloed across legacy systems</option>
+                                    <option value="2">2 - Partially Centralized / Basic ETL existing but minimal API access</option>
+                                    <option value="3" selected>3 - Centralized Data Warehouse / Documented Schemas / Standard Pipelines</option>
+                                    <option value="4">4 - Real-time Data Mesh / High Governance / Continuous Integrity Validation</option>
+                                </select>
+
+                                <div>
+                                    <label class="block text-slate-300 mb-1">Enterprise Evidence & Unstructured Context:</label>
+                                    <textarea id="d1-evidence" rows="2" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2 text-slate-200 text-xs focus:ring-1 focus:ring-brand-500 outline-none placeholder-slate-500" placeholder="e.g., Customer records are split across 3 legacy ERPs; high rate of duplicate entries reported in Q3 audit."></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- DIMENSION 2: TECHNOLOGY INFRASTRUCTURE -->
+                        <div class="glass-panel p-5 rounded-xl space-y-4 border-l-4 border-l-purple-500">
+                            <div class="flex justify-between items-center">
+                                <h3 class="font-semibold text-white text-sm flex items-center gap-2">
+                                    <span class="w-6 h-6 rounded-full bg-purple-500/20 text-purple-400 flex items-center justify-center text-xs font-mono">2</span>
+                                    Technology & MLOps Infrastructure
+                                </h3>
+                                <span class="text-[11px] font-mono text-slate-400">Weight: 20%</span>
+                            </div>
+
+                            <div class="space-y-3 text-xs">
+                                <label class="block text-slate-300">Compute & Deployment Scalability:</label>
+                                <select id="d2-score" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-white focus:ring-2 focus:ring-brand-500 outline-none">
+                                    <option value="1">1 - On-Premise Legacy Servers / No GPU acceleration / Rigid deployments</option>
+                                    <option value="2" selected>2 - Cloud Infrastructure exists / Basic API integration / Manual deployment</option>
+                                    <option value="3">3 - Cloud-Native Architecture / Containerized Workloads / Basic CI/CD pipelines</option>
+                                    <option value="4">4 - Automated MLOps Pipelines / Real-time Inference / Auto-scaling Cloud Native</option>
+                                </select>
+
+                                <div>
+                                    <label class="block text-slate-300 mb-1">Enterprise Evidence & Unstructured Context:</label>
+                                    <textarea id="d2-evidence" rows="2" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2 text-slate-200 text-xs focus:ring-1 focus:ring-brand-500 outline-none placeholder-slate-500" placeholder="e.g., Using AWS cloud for basic workloads, but missing dedicated MLOps model monitoring and pipeline automation."></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- DIMENSION 3: PROCESS MATURITY -->
+                        <div class="glass-panel p-5 rounded-xl space-y-4 border-l-4 border-l-amber-500">
+                            <div class="flex justify-between items-center">
+                                <h3 class="font-semibold text-white text-sm flex items-center gap-2">
+                                    <span class="w-6 h-6 rounded-full bg-amber-500/20 text-amber-400 flex items-center justify-center text-xs font-mono">3</span>
+                                    Process Maturity & Workflow Standardization
+                                </h3>
+                                <span class="text-[11px] font-mono text-slate-400">Weight: 20%</span>
+                            </div>
+
+                            <div class="space-y-3 text-xs">
+                                <label class="block text-slate-300">Workflow Mapping & SOP Standardization:</label>
+                                <select id="d3-score" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-white focus:ring-2 focus:ring-brand-500 outline-none">
+                                    <option value="1" selected>1 - Ad-hoc Manual Processes / Undocumented Workflows / High human error</option>
+                                    <option value="2">2 - Partially Standardized SOPs / Siloed process documentation</option>
+                                    <option value="3">3 - Fully Documented Digital Workflows / Clear operational KPIs</option>
+                                    <option value="4">4 - Dynamically Optimized Processes / Continuous Process Mining & Feedback</option>
+                                </select>
+
+                                <div>
+                                    <label class="block text-slate-300 mb-1">Enterprise Evidence & Unstructured Context:</label>
+                                    <textarea id="d3-evidence" rows="2" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2 text-slate-200 text-xs focus:ring-1 focus:ring-brand-500 outline-none placeholder-slate-500" placeholder="e.g., Customer onboarding process relies heavily on manual data entry across PDF forms with zero standardized SOP guidelines."></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- DIMENSION 4: WORKFORCE READINESS -->
+                        <div class="glass-panel p-5 rounded-xl space-y-4 border-l-4 border-l-emerald-500">
+                            <div class="flex justify-between items-center">
+                                <h3 class="font-semibold text-white text-sm flex items-center gap-2">
+                                    <span class="w-6 h-6 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-xs font-mono">4</span>
+                                    Workforce Capability & Culture
+                                </h3>
+                                <span class="text-[11px] font-mono text-slate-400">Weight: 15%</span>
+                            </div>
+
+                            <div class="space-y-3 text-xs">
+                                <label class="block text-slate-300">AI Literacy & Team Technical Skills:</label>
+                                <select id="d4-score" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-white focus:ring-2 focus:ring-brand-500 outline-none">
+                                    <option value="1">1 - Minimal AI/Technical Literacy / Strong cultural resistance to automation</option>
+                                    <option value="2" selected>2 - Basic Digital Skills / Interested management / Lack of dedicated AI talent</option>
+                                    <option value="3">3 - Skilled In-House Data/Dev Team / Active AI Upskilling programs</option>
+                                    <option value="4">4 - Cross-Functional AI Fluency / Center of Excellence / High Agile adoption</option>
+                                </select>
+
+                                <div>
+                                    <label class="block text-slate-300 mb-1">Enterprise Evidence & Unstructured Context:</label>
+                                    <textarea id="d4-evidence" rows="2" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2 text-slate-200 text-xs focus:ring-1 focus:ring-brand-500 outline-none placeholder-slate-500" placeholder="e.g., Product managers are eager to adopt AI features, but engineering team lacks prior hands-on LLM implementation experience."></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- DIMENSION 5: GOVERNANCE & RISK -->
+                        <div class="glass-panel p-5 rounded-xl space-y-4 border-l-4 border-l-red-500">
+                            <div class="flex justify-between items-center">
+                                <h3 class="font-semibold text-white text-sm flex items-center gap-2">
+                                    <span class="w-6 h-6 rounded-full bg-red-500/20 text-red-400 flex items-center justify-center text-xs font-mono">5</span>
+                                    Governance, Ethics & Risk Policy
+                                </h3>
+                                <span class="text-[11px] font-mono text-slate-400">Weight: 20%</span>
+                            </div>
+
+                            <div class="space-y-3 text-xs">
+                                <label class="block text-slate-300">AI Ethics, Compliance & Audit Protocols:</label>
+                                <select id="d5-score" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-white focus:ring-2 focus:ring-brand-500 outline-none">
+                                    <option value="1" selected>1 - No AI Governance Framework / Undocumented compliance checks</option>
+                                    <option value="2">2 - Generic Data Privacy Policies / Informal oversight committee</option>
+                                    <option value="3">3 - Formal Responsible AI Policy / Regular Model Drift & Bias Audits</option>
+                                    <option value="4">4 - Comprehensive AI Risk Governance / Real-time Auditability / Enterprise Legal Alignment</option>
+                                </select>
+
+                                <div>
+                                    <label class="block text-slate-300 mb-1">Enterprise Evidence & Unstructured Context:</label>
+                                    <textarea id="d5-evidence" rows="2" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2 text-slate-200 text-xs focus:ring-1 focus:ring-brand-500 outline-none placeholder-slate-500" placeholder="e.g., No formal policy on employee use of generative AI or data privacy compliance for LLM prompts."></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="w-full py-3.5 px-6 rounded-xl bg-gradient-to-r from-brand-600 to-emerald-500 hover:from-brand-500 hover:to-emerald-400 text-white font-semibold text-sm shadow-lg shadow-brand-500/20 transition-all flex items-center justify-center gap-2">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            Run Readiness Diagnostic & Synthesize Findings
+                        </button>
+                    </form>
+                </div>
+
+                <!-- DIAGNOSTIC RESULTS DISPLAY (5 cols) -->
+                <div class="lg:col-span-5 space-y-6">
+                    <div class="sticky top-24 space-y-6">
+                        
+                        <!-- Scoreboard Card -->
+                        <div class="glass-panel p-6 rounded-xl space-y-6">
+                            <div class="flex justify-between items-start border-b border-slate-800 pb-4">
+                                <div>
+                                    <span class="text-[10px] font-mono text-slate-400 uppercase tracking-wider block">Diagnostic Output</span>
+                                    <h3 class="text-lg font-bold text-white">Transformation Scorecard</h3>
+                                </div>
+                                <div id="overall-badge" class="px-3 py-1 rounded-full text-xs font-bold bg-amber-500/20 text-amber-400 border border-amber-500/30">
+                                    Moderate Risk
+                                </div>
+                            </div>
+
+                            <!-- Big Score Circle & Metric Breakdown -->
+                            <div class="flex items-center gap-6">
+                                <div class="relative w-28 h-28 rounded-full bg-slate-900 border-4 border-slate-800 flex flex-col items-center justify-center flex-shrink-0">
+                                    <span id="overall-score-num" class="text-3xl font-extrabold text-white font-mono">48</span>
+                                    <span class="text-[10px] text-slate-400 uppercase font-mono">Out of 100</span>
+                                </div>
+                                <div class="space-y-1 text-xs">
+                                    <p class="font-semibold text-white">Status Classification:</p>
+                                    <p id="overall-status-text" class="text-slate-300 leading-relaxed">
+                                        Foundational gaps detected. High risk of transformation friction if deployed without remediation.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Dimension Bar Chart Visualizations -->
+                            <div class="space-y-3 pt-2">
+                                <span class="text-xs font-mono text-slate-400 block border-b border-slate-800/80 pb-1">Dimension Readiness Breakdown:</span>
+                                
+                                <div class="space-y-1">
+                                    <div class="flex justify-between text-[11px]">
+                                        <span class="text-slate-300">Data Quality</span>
+                                        <span id="d1-val" class="font-mono text-slate-400">75%</span>
+                                    </div>
+                                    <div class="w-full h-2 bg-slate-800 rounded-full overflow-hidden">
+                                        <div id="d1-bar" class="h-full bg-blue-500 transition-all duration-500" style="width: 75%"></div>
+                                    </div>
+                                </div>
+
+                                <div class="space-y-1">
+                                    <div class="flex justify-between text-[11px]">
+                                        <span class="text-slate-300">Technology & Infrastructure</span>
+                                        <span id="d2-val" class="font-mono text-slate-400">50%</span>
+                                    </div>
+                                    <div class="w-full h-2 bg-slate-800 rounded-full overflow-hidden">
+                                        <div id="d2-bar" class="h-full bg-purple-500 transition-all duration-500" style="width: 50%"></div>
+                                    </div>
+                                </div>
+
+                                <div class="space-y-1">
+                                    <div class="flex justify-between text-[11px]">
+                                        <span class="text-slate-300">Process Maturity</span>
+                                        <span id="d3-val" class="font-mono text-slate-400">25%</span>
+                                    </div>
+                                    <div class="w-full h-2 bg-slate-800 rounded-full overflow-hidden">
+                                        <div id="d3-bar" class="h-full bg-amber-500 transition-all duration-500" style="width: 25%"></div>
+                                    </div>
+                                </div>
+
+                                <div class="space-y-1">
+                                    <div class="flex justify-between text-[11px]">
+                                        <span class="text-slate-300">Workforce Readiness</span>
+                                        <span id="d4-val" class="font-mono text-slate-400">50%</span>
+                                    </div>
+                                    <div class="w-full h-2 bg-slate-800 rounded-full overflow-hidden">
+                                        <div id="d4-bar" class="h-full bg-emerald-500 transition-all duration-500" style="width: 50%"></div>
+                                    </div>
+                                </div>
+
+                                <div class="space-y-1">
+                                    <div class="flex justify-between text-[11px]">
+                                        <span class="text-slate-300">Governance & Risk Policy</span>
+                                        <span id="d5-val" class="font-mono text-slate-400">25%</span>
+                                    </div>
+                                    <div class="w-full h-2 bg-slate-800 rounded-full overflow-hidden">
+                                        <div id="d5-bar" class="h-full bg-red-500 transition-all duration-500" style="width: 25%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Evidence-Based Gap Analysis & Generative Roadmap Card -->
+                        <div class="glass-panel p-6 rounded-xl space-y-4">
+                            <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+                                <h3 class="font-semibold text-white text-sm flex items-center gap-2">
+                                    <svg class="w-4 h-4 text-brand-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                                    AI-Synthesized Evidence & Gap Analysis
+                                </h3>
+                                <span class="text-[10px] font-mono text-brand-400 bg-brand-500/10 px-2 py-0.5 rounded border border-brand-500/20">Generative Synthesis Hypothesis</span>
+                            </div>
+
+                            <div id="gap-analysis-container" class="space-y-3 text-xs text-slate-300 leading-relaxed">
+                                <p class="text-slate-400 italic">Submit or adjust questionnaire inputs to generate evidence-backed gap synthesis...</p>
+                            </div>
+
+                            <!-- Human-in-the-Loop Review Callout -->
+                            <div class="pt-4 border-t border-slate-800">
+                                <button onclick="triggerHumanReviewModal()" class="w-full py-2.5 px-4 rounded-lg bg-slate-800 hover:bg-slate-700 text-brand-400 border border-brand-500/30 font-semibold text-xs transition-all flex items-center justify-center gap-2">
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
+                                    Initiate Human Advisory Verification Checkpoint
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECTION 5: CRISP THREAD LINK & DELIVERABLE FOOTER -->
+        <section id="crisp-link" class="pt-6">
+            <div class="glass-panel rounded-2xl p-6 sm:p-8 border border-slate-800 text-center space-y-4 bg-gradient-to-b from-slate-900 to-slate-950">
+                <div class="inline-flex items-center justify-center p-3 rounded-full bg-blue-500/10 text-blue-400 mb-2">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z"></path></svg>
+                </div>
+                
+                <h2 class="text-xl font-bold text-white serif-heading">CRISP Peer Review & Discussion Thread</h2>
+                <p class="text-xs text-slate-400 max-w-xl mx-auto">
+                    Access the interactive CRISP peer feedback thread, methodological notes, and course advisor discussions regarding this portfolio deliverable.
+                </p>
+
+                <!-- CRISP LINK PLACEHOLDER -->
+                <!-- REPLACEMENT INSTRUCTION: Replace href="#" below with your actual CRISP thread URL -->
+                <div class="pt-2">
+                    <a id="crisp-thread-button" 
+                       href="https://crisp.example.com/threads/soumya-b-ft272079-ai-pm-portfolio" 
+                       target="_blank" 
+                       rel="noopener noreferrer" 
+                       class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-xs transition-all shadow-lg shadow-blue-600/20 border border-blue-400/30">
+                        <span>Access Peer Discussion Thread (CRISP Link)</span>
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                    </a>
+                </div>
+                <p class="text-[10px] font-mono text-slate-500 mt-2">Placeholder ID: #crisp-thread-button (Replace URL in source code)</p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="border-t border-slate-800/80 bg-slate-950 py-8 text-center text-xs text-slate-500 space-y-2">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center gap-4">
+            <div>
+                <p class="font-semibold text-slate-400">Soumya B | FT Number: FT272079</p>
+                <p class="text-[11px] text-slate-500">AI Product Management Portfolio • Consulting Advisory Spec</p>
+            </div>
+            <div class="text-[11px] text-slate-500">
+                Built strictly adhering to Responsible AI Guardrails & Human-in-the-loop Standards.
+            </div>
+        </div>
+    </footer>
+
+    <!-- HUMAN REVIEW CHECKPOINT MODAL -->
+    <div id="human-review-modal" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm hidden flex items-center justify-center p-4">
+        <div class="glass-panel max-w-lg w-full p-6 rounded-2xl space-y-5 border border-slate-700 shadow-2xl">
+            <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+                <div class="flex items-center gap-2">
+                    <span class="p-1.5 rounded bg-brand-500/20 text-brand-400">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                    </span>
+                    <h3 class="text-base font-bold text-white">Human Advisory Verification Checkpoint</h3>
+                </div>
+                <button onclick="closeHumanReviewModal()" class="text-slate-400 hover:text-white">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                </button>
+            </div>
+
+            <div class="space-y-3 text-xs text-slate-300 leading-relaxed">
+                <p class="font-semibold text-brand-300">Guardrail Enforcement Protocol:</p>
+                <p>
+                    Per the <strong>Never List Guardrail #5</strong>, AI-generated hypotheses and readiness roadmaps cannot execute or dictate capital allocations without explicit lead consultant verification.
+                </p>
+                <div class="p-3 rounded bg-slate-900 border border-slate-800 space-y-2">
+                    <label class="flex items-center gap-2 text-slate-200 font-medium">
+                        <input type="checkbox" id="chk-evidence" class="rounded bg-slate-800 border-slate-700 text-brand-500 focus:ring-brand-500">
+                        <span>I have verified that all qualitative enterprise evidence is authentic.</span>
+                    </label>
+                    <label class="flex items-center gap-2 text-slate-200 font-medium">
+                        <input type="checkbox" id="chk-no-guarantee" class="rounded bg-slate-800 border-slate-700 text-brand-500 focus:ring-brand-500">
+                        <span>I acknowledge that scores do not guarantee transformation ROI.</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="flex justify-end gap-3 pt-2">
+                <button onclick="closeHumanReviewModal()" class="px-4 py-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-semibold">Cancel</button>
+                <button onclick="confirmHumanReview()" class="px-4 py-2 rounded-lg bg-brand-600 hover:bg-brand-500 text-white text-xs font-semibold shadow-md">Approve & Sign Off</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT ENGINE & LOGIC -->
+    <script>
+        // Diagnostic Engine Calculation
+        function evaluateReadiness() {
+            // Retrieve Dimension Scores (1-4)
+            const s1 = parseInt(document.getElementById('d1-score').value);
+            const s2 = parseInt(document.getElementById('d2-score').value);
+            const s3 = parseInt(document.getElementById('d3-score').value);
+            const s4 = parseInt(document.getElementById('d4-score').value);
+            const s5 = parseInt(document.getElementById('d5-score').value);
+
+            // Retrieve Enterprise Evidence
+            const e1 = document.getElementById('d1-evidence').value.trim();
+            const e2 = document.getElementById('d2-evidence').value.trim();
+            const e3 = document.getElementById('d3-evidence').value.trim();
+            const e4 = document.getElementById('d4-evidence').value.trim();
+            const e5 = document.getElementById('d5-evidence').value.trim();
+
+            // Convert to percentage per dimension
+            const p1 = (s1 / 4) * 100;
+            const p2 = (s2 / 4) * 100;
+            const p3 = (s3 / 4) * 100;
+            const p4 = (s4 / 4) * 100;
+            const p5 = (s5 / 4) * 100;
+
+            // Update Dimension Progress Bars & UI Percentages
+            document.getElementById('d1-val').innerText = `${p1}%`;
+            document.getElementById('d1-bar').style.width = `${p1}%`;
+
+            document.getElementById('d2-val').innerText = `${p2}%`;
+            document.getElementById('d2-bar').style.width = `${p2}%`;
+
+            document.getElementById('d3-val').innerText = `${p3}%`;
+            document.getElementById('d3-bar').style.width = `${p3}%`;
+
+            document.getElementById('d4-val').innerText = `${p4}%`;
+            document.getElementById('d4-bar').style.width = `${p4}%`;
+
+            document.getElementById('d5-val').innerText = `${p5}%`;
+            document.getElementById('d5-bar').style.width = `${p5}%`;
+
+            // Weighted Total Calculation
+            // Weights: D1=25%, D2=20%, D3=20%, D4=15%, D5=20%
+            const overall = Math.round((p1 * 0.25) + (p2 * 0.20) + (p3 * 0.20) + (p4 * 0.15) + (p5 * 0.20));
+
+            // Update Overall Score Display
+            document.getElementById('overall-score-num').innerText = overall;
+
+            // Classification Logic
+            const badge = document.getElementById('overall-badge');
+            const statusText = document.getElementById('overall-status-text');
+
+            if (overall >= 75) {
+                badge.innerText = "High Readiness";
+                badge.className = "px-3 py-1 rounded-full text-xs font-bold bg-brand-500/20 text-brand-400 border border-brand-500/30";
+                statusText.innerText = "Enterprise infrastructure, governance, and processes are well-positioned for AI acceleration.";
+            } else if (overall >= 50) {
+                badge.innerText = "Moderate Risk";
+                badge.className = "px-3 py-1 rounded-full text-xs font-bold bg-amber-500/20 text-amber-400 border border-amber-500/30";
+                statusText.innerText = "Targeted capability gaps identified. Remediate process or governance bottlenecks before scaling.";
+            } else {
+                badge.innerText = "High Risk / Unprepared";
+                badge.className = "px-3 py-1 rounded-full text-xs font-bold bg-red-500/20 text-red-400 border border-red-500/30";
+                statusText.innerText = "Critical transformation risks. High vulnerability to model failure, bad data, or governance breaches.";
+            }
+
+            // Synthesize Evidence-Based Gap Analysis (Simulated Generative AI Logic)
+            synthesizeGapAnalysis(s1, s2, s3, s4, s5, e1, e2, e3, e4, e5);
+        }
+
+        function synthesizeGapAnalysis(s1, s2, s3, s4, s5, e1, e2, e3, e4, e5) {
+            const container = document.getElementById('gap-analysis-container');
+            container.innerHTML = ''; // Clear existing
+
+            let gapsHtml = '';
+
+            // Gap 1: Data Quality Synthesis
+            if (s1 <= 2 || e1.length > 0) {
+                gapsHtml += `
+                    <div class="p-3 rounded-lg bg-slate-900/80 border border-slate-800 space-y-1">
+                        <div class="flex justify-between items-center">
+                            <span class="font-semibold text-blue-400">Data Infrastructure Gap:</span>
+                            <span class="text-[10px] font-mono text-slate-500">Score: ${s1}/4</span>
+                        </div>
+                        <p class="text-slate-300">${e1 ? `<strong>Evidence Provided:</strong> "${e1}"` : 'Data fragmentation detected across core repositories.'}</p>
+                        <p class="text-slate-400 text-[11px] mt-1"><strong>Prioritised Action:</strong> Establish standard schema validation and unified API access layers before training or fine-tuning models.</p>
+                    </div>
+                `;
+            }
+
+            // Gap 2: Governance Synthesis
+            if (s5 <= 2 || e5.length > 0) {
+                gapsHtml += `
+                    <div class="p-3 rounded-lg bg-slate-900/80 border border-slate-800 space-y-1">
+                        <div class="flex justify-between items-center">
+                            <span class="font-semibold text-red-400">Governance & Risk Vulnerability:</span>
+                            <span class="text-[10px] font-mono text-slate-500">Score: ${s5}/4</span>
+                        </div>
+                        <p class="text-slate-300">${e5 ? `<strong>Evidence Provided:</strong> "${e5}"` : 'Formal AI risk framework is lacking.'}</p>
+                        <p class="text-slate-400 text-[11px] mt-1"><strong>Prioritised Action:</strong> Draft explicit employee generative AI usage policies and establish prompt data privacy boundaries immediately.</p>
+                    </div>
+                `;
+            }
+
+            // Gap 3: Process Maturity Synthesis
+            if (s3 <= 2 || e3.length > 0) {
+                gapsHtml += `
+                    <div class="p-3 rounded-lg bg-slate-900/80 border border-slate-800 space-y-1">
+                        <div class="flex justify-between items-center">
+                            <span class="font-semibold text-amber-400">Process Bottleneck:</span>
+                            <span class="text-[10px] font-mono text-slate-500">Score: ${s3}/4</span>
+                        </div>
+                        <p class="text-slate-300">${e3 ? `<strong>Evidence Provided:</strong> "${e3}"` : 'Processes rely on manual, unstandardized workflows.'}</p>
+                        <p class="text-slate-400 text-[11px] mt-1"><strong>Prioritised Action:</strong> Standardize SOPs digitally prior to attempting workflow automation.</p>
+                    </div>
+                `;
+            }
+
+            if (gapsHtml === '') {
+                gapsHtml = `
+                    <div class="p-3 rounded-lg bg-brand-500/10 border border-brand-500/30 text-brand-300 text-xs">
+                        No critical capability gaps identified from current inputs. Enterprise demonstrates strong baseline readiness across assessed dimensions.
+                    </div>
+                `;
+            }
+
+            container.innerHTML = gapsHtml;
+        }
+
+        // Modal Controls for Human-in-the-Loop Checkpoint
+        function triggerHumanReviewModal() {
+            document.getElementById('human-review-modal').classList.remove('hidden');
+        }
+
+        function closeHumanReviewModal() {
+            document.getElementById('human-review-modal').classList.add('hidden');
+        }
+
+        function confirmHumanReview() {
+            const chk1 = document.getElementById('chk-evidence').checked;
+            const chk2 = document.getElementById('chk-no-guarantee').checked;
+
+            if (!chk1 || !chk2) {
+                alert("Please confirm both verification checkpoints before approving.");
+                return;
+            }
+
+            closeHumanReviewModal();
+            alert("Human Advisory Verification completed successfully! The diagnostic findings have been certified by lead AI PM (Soumya B).");
+        }
+
+        // Initialize default scoring on load
+        window.onload = function() {
+            evaluateReadiness();
+        };
+    </script>
+</body>
+</html>
